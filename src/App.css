@@ -13,3 +13,7 @@
   --dgreen: #5a874f;
   --dblack: #222222;
 }
+
+body {
+  background-color: var(--lblack);
+}

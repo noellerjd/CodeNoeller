@@ -14,14 +14,21 @@ const projects = [
   },
   {
     id: 2,
-    title: "Project 2",
-    description: "This is the description for Project 2",
+    title: "Social Media Backend",
+    description: "Simple back-end for a Social Media website",
     imgUrl: project2Img,
-    githubLink: "https://github.com/yourusername/project2",
+    githubLink: "https://github.com/noellerjd/Social-Network-Backend",
+  },
+  {
+    id: 3,
+    title: "Project 3",
+    description: "This is the description for Project 3",
+    imgUrl: project2Img,
+    githubLink: "https://github.com/yourusername/project3",
   },
 ];
 
-export default function Homepage() {
+function Homepage() {
   const [currentProject, setCurrentProject] = useState(0);
 
   const displayPreviousProject = () => {
@@ -88,3 +95,5 @@ export default function Homepage() {
     </div>
   );
 }
+
+export default Homepage;

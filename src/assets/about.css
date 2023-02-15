@@ -1,0 +1,48 @@
+:root {
+  --lblack: #424242;
+  --lgreen: #a4cf9b;
+  --lblue: #61dafb;
+  --grey: #dadada;
+  --white: #fff;
+  --dgreen: #5a874f;
+  --dblack: #222222;
+}
+
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.about-heading {
+  font-size: 3rem;
+  color: var(--lgreen);
+}
+
+/* .about-heading span {
+  color: var(--white);
+} */
+
+.about-description {
+  font-size: 1.5rem;
+  color: var(--grey);
+  margin: 20px 0;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 768px) {
+  .about-container {
+    padding: 100px 50px;
+  }
+
+  .about-heading {
+    font-size: 4rem;
+  }
+
+  .about-description {
+    font-size: 2rem;
+    max-width: 600px;
+    margin: 30px auto;
+  }
+}
