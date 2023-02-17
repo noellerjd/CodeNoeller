@@ -1,3 +1,13 @@
+:root {
+  --lblack: #424242;
+  --lgreen: #a4cf9b;
+  --lblue: #61dafb;
+  --grey: #dadada;
+  --white: #fff;
+  --dgreen: #5a874f;
+  --dblack: #222222;
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -21,7 +31,13 @@
   padding-left: 1.5rem;
 }
 
-.logo span {
+.logo:hover .logo-arrow {
+  transition: transform 1s linear;
+  transform: rotate(360deg);
+  color: var(--lblack);
+}
+
+.logo-white {
   color: var(--white);
 }
 

@@ -33,7 +33,15 @@ const Blog = () => {
       time: "9:56pm",
       title: "Mapping!",
       content:
-        "For now I think, since I'll be the only one posting on here, I'll just map these posts by passing in these props to my BlogPost component. I may use something like moment.js to sort these in the future as I add more. Unless I find a better way to go about it! Shoutout to Dylan for the suggestion. \nI Coded all through lunch and from 5-10 today. Luckily, I did take a break and celebrated Valentines day with Bri, but wouldn't have minded if I was given a few extra hours in the day to play some games as well!",
+        "For now I think, since I'll be the only one posting on here, I'll just map these posts by passing in these props to my BlogPost component. I may use something like moment.js to sort these in the future as I add more. Unless I find a better way to go about it! Shoutout to Dylan for the suggestion. \nI Coded all through lunch and from 5-10 today. Luckily, I did take a break and celebrated Valentines day with Bri, but wouldn't have minded if I was given a few extra hours in the day to play some games as well.",
+    },
+    {
+      author: "Justin Noeller",
+      created: "2023-02-16",
+      time: "9:29pm",
+      title: "Brainstorm",
+      content:
+        "Working on some other ideas to improve this site. I kind of want to use this as my own coding playground. I may mess around making a few simple website games to work on some of my JS skill. My initial thought is to create a simple memory matching game through JS and CSS. Hopefully I'll have a little more energy after work tomorrow!",
     },
   ];
 
